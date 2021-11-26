@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+body {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: 'Baloo 2';
+}
+
+strong {
+  color: yellow;
+}
+
+#selfie {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: black;
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+  margin: 0 auto 20px;
+}
+
+.fas {
+  color: red;
+}
+
+.dev > ul > li {
+  list-style-type: square;
+}
+
+.netflix > ol > li {
+  margin: 0 0 10px 0;
+}
+
+#left {
+  width: 200px;
+  float: left;
+  padding-top: 20px;
+}
+
+#right {
+  width: 680px;
+  float: left; 
+  padding-left: 20px;
+}
+
+.clear {
+  clear: left;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    width: 900px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    width: 600px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 300px;
+    padding: 20px;
+  }
+  #selfie {
+    width: 80px;
+    margin-left: calc(50% - 40px);
+  }
+  #left {
+    float: none;
+    width: 260px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  #right {
+      float: none;
+      width: 260px;
+  }
+}
