@@ -25,6 +25,8 @@ strong {
   border-radius: 15px;
   border: 1px solid whitesmoke;
   margin: 0 auto 20px;
+  width: 600px;
+  padding: 30px;
 }
 
 .fas {
@@ -58,7 +60,7 @@ strong {
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .card {
-    width: 900px;
+    width: 600px;
     padding: 30px;
   }
 }
@@ -66,7 +68,7 @@ strong {
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
   .card {
-    width: 600px;
+    width: 500px;
     padding: 20px;
   }
 }
