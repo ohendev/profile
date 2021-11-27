@@ -1,9 +1,6 @@
 .gradient-border {
   --border-width: 3px;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: var(--border-width);
 }
 .gradient-border::after {
