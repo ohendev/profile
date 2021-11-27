@@ -25,7 +25,7 @@ strong {
   border-radius: 15px;
   border: 1px solid whitesmoke;
   margin: 0 auto 20px;
-  width: 600px;
+  width: 900px;
   padding: 30px;
 }
 
@@ -55,6 +55,50 @@ strong {
 
 .clear {
   clear: left;
+}
+
+#btn-purple {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    display: inline-block;
+    width: 130px;
+    margin: 10px 0 10px calc(50% - 70px);
+    padding: 5px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    position: relative;
+}
+
+#btn-purple:hover {
+  color: black;
+  background-color: thistle;
+}
+
+#btn-purple::before {
+  opacity: 0.6;
+  width: 100%;
+}
+
+#btn-purple::before {
+  transition: all 0.5s ease;
+  content: "";
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color:blueviolet;
+  opacity: 0.3;
+}
+
+#btn-purple:hover::before {
+  opacity: 0.6;
+  width: 100%;
 }
 
 @media (max-width: 960px) {
