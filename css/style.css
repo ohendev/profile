@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
 @import url('gradient.css');
+@import url('particule.css');
 
 body {
   background-color: rgb(30, 30, 30);
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 h1, h2 {
