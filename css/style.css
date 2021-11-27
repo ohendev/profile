@@ -86,6 +86,7 @@ strong {
 
 #btn-purple {
     text-decoration: none;
+    text-align: center;
     color: grey;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
@@ -128,12 +129,50 @@ strong {
   width: 100%;
 }
 
-@media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
-  .card {
-    width: 600px;
-    padding: 30px;
-  }
+
+#msf {
+  text-decoration: none;
+  text-align: center;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  transition: all 0.4s ease-in-out;
+  background-color: white;
+  display: inline-block;
+  width: 130px;
+  margin: 10px 0 10px calc(50% - 70px);
+  padding: 5px;
+  border: 1px solid yellow;
+  border-radius: 50px;
+  position: relative;
+}
+
+#msf:hover {
+color: black;
+background-color:antiquewhite;
+}
+
+#msf::before {
+opacity: 0.6;
+width: 100%;
+}
+
+#msf::before {
+transition: all 0.5s ease;
+content: "";
+width: 25%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 50px;
+background-color:yellow;
+opacity: 0.3;
+}
+
+#msf:hover::before {
+opacity: 0.6;
+width: 100%;
 }
 
 @media (max-width: 720px) {
