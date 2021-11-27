@@ -39,6 +39,15 @@ strong {
   border: 5px solid goldenrod;
 }
 
+#wanted {
+  width: 190px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.laurent:hover #wanted {
+  opacity: 1;
+}
 .card {
   background-color: black;
   border-radius: 15px;
